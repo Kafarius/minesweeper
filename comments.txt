@@ -1,0 +1,5 @@
+Tasks List:
+
+- "login" functionality
+- winning functionality: time comparing, time saving,
+

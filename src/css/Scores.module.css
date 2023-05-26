@@ -1,0 +1,44 @@
+.scores {
+    display: block;
+    max-height: 80%;
+    height: auto;
+    width: auto;
+    background-color: rgb(39, 39, 39);
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    overflow: scroll;
+    overflow-x:hidden;
+}
+.scores h3{
+    text-decoration: underline;
+    color: rgb(125, 231, 125);
+}
+.score {
+    display: block;
+    height: auto;
+    width: 70%;
+    margin: 10px auto;
+    border: 1px solid #c8c8c8;
+    border-radius: 8px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+.marked {
+    display: block;
+    height: auto;
+    width: 70%;
+    margin: 10px auto;
+    border: 2px solid rgba(125, 231, 125, 0.7);
+    border-radius: 8px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}

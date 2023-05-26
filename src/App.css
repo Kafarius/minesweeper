@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(39, 39, 39);
+}
+.App-mid {
+  display: flex;
+  justify-content: space-evenly;
+  height: 700px;
+
+}
+.App-scoreboard {
+  display: block;
+  background-color: #c8c8c8;
+  width: 30%;
+  height: auto;
+  border-radius: 8px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+.Scoreboard-username {
+  display: block;
+  height: auto;
+  min-height: 50px;
+  width: auto;
+  /*background-color: rgb(39, 39, 39);*/
+  background-color: black;
+  color: white;
+  padding: 15px;
+  margin: 10px;
+  font-size: 25px;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+}
+.Scoreboard-username:hover {
+  color: #7cd67c;
+}

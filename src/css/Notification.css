@@ -1,0 +1,40 @@
+.notification {
+    display: block;
+    height: 100px;
+    width: 60%;
+    margin: 10px auto;
+    margin-top: 25  px;
+    background-color: black;
+    color: white;
+   border-radius: 8px;
+}
+.notification header {
+    display: block;
+    padding: 10px;
+    
+}
+.notification header h3 {
+    font-size: 25px;
+}
+.notification h3, .notification p {
+    margin: 0;
+    text-align: center;
+
+}
+.default {
+    background-color: black;
+}
+.win {
+    background-color: rgb(50, 221, 104);
+}
+.lose {
+    background-color: rgb(234, 92, 92);
+}
+.start {
+    background-color: rgb(50, 178, 221);
+}
+.notification img {
+    height: 100px;
+    width: 100px;
+    float: right;
+}

@@ -1,0 +1,28 @@
+.userNotification {
+    display: block;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.userNotification h5 {
+    margin: 0;
+    color: white;
+}
+.userNotification p {
+    margin: 5px 0;
+    color: #cbcbc7;
+    font-style: italic;
+    font-size: 15px;
+}
+.error h5 {
+    color: #bf0048;
+}
+.error p {
+    color: #ff0061;
+}
+.success h5 {
+    color: #00977e;
+}
+.success p {
+    color: #00ffe6;
+}

@@ -1,0 +1,96 @@
+.landing {
+    display: block;
+    height: auto;
+    min-height: 500px;
+    background-color: #2f2f2f;
+    width: 60%;
+    position: absolute;
+    top: 15%;
+    margin-left: 20%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.landingForms {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    background-color: transparent;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.landingForms form {
+    width: 40%;
+    height: auto;
+    min-height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 1px solid #c8c8c8;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 30px;
+    box-sizing: border-box;
+}
+.landingForms form input {
+    outline: none;
+    border: 3px solid transparent;
+    margin:  10px auto;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 80%;
+}
+.loginForm input::placeholder {
+    color: #08b04e;
+}
+.loginForm input:focus {
+    border: 3px solid #08b04e;
+}
+.signupForm input::placeholder {
+    color: #0594c1;
+}
+.signupForm input:focus {
+    border: 3px solid #0594c1;
+}
+.landingForms form button {
+    outline: none;
+    border: none;
+    margin:  25px 62% 5px ;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 3px;
+    width: 30%;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.loginForm button {
+    background-color: #089b4e;
+}
+.loginForm button:hover {
+    background-color: #08b04e;
+}
+.signupForm button {
+    background-color: #056d9b;
+}
+.signupForm button:hover {
+    background-color: #0594c1;
+}
+.landingForms form h3 {
+    font-size: 23px;
+    text-align: center;
+}
+.loginForm h3 {
+    color: rgb(125, 231, 125);
+}
+.signupForm h3 {
+    color: #05ceff;
+}
+.landingForms form i {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #898989;
+}
